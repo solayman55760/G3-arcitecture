@@ -55,6 +55,41 @@ color: #131313;
 }
 
 .btn-primary{
-    
+    border-radius: 8px;
+    background: #FF900E;
+    padding:20px 25px ;
+    color: #FFF;
+    font-size: 1.25rem;
+    cursor: pointer;
+    border: 0;
 }
 
+
+.banner img{
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+/*responsive midea quaris*/
+/*mobile devices*/
+@media screen and (max-width:576px) {
+    header{
+        padding: 20px;  
+    }
+    nav{
+        flex-direction: column;
+    }
+ 
+}
+
+/*tablet or medium devaices*/
+@media screen and (min-width:576px) and (max-width:960px) {
+    nav{
+        flex-direction: column;
+    }
+    header{
+        padding: 40px;
+    }
+    
+}

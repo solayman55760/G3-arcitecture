@@ -43,6 +43,18 @@ nav li a{
 }
 
 .banner-title{ 
+font-size:4rem ;
+font-weight: 700;
+color: #131313;
+}
 
+
+.bannar-description{
+    color: #727272;
+    font-size: 1rem;
+}
+
+.btn-primary{
+    
 }
 

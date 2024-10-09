@@ -1,3 +1,9 @@
+.text-light-gray{
+    color: #727272;
+    font-size: 1rem;
+}
+
+
 /*header styles*/
 header{
     background: rgba(255,144,14,0.10);
@@ -49,10 +55,7 @@ color: #131313;
 }
 
 
-.bannar-description{
-    color: #727272;
-    font-size: 1rem;
-}
+
 
 .btn-primary{
     border-radius: 8px;
@@ -71,28 +74,6 @@ color: #131313;
 }
 
 
-/*responsive midea quaris*/
-/*mobile devices*/
-@media screen and (max-width:576px) {
-    header{
-        padding: 20px;  
-    }
-    nav{
-        flex-direction: column;
-    }
- 
-}
-
-/*tablet or medium devaices*/
-@media screen and (min-width:576px) and (max-width:960px) {
-    nav{
-        flex-direction: column;
-    }
-    header{
-        padding: 40px;
-    }
-    
-}
 
 
 /*main style*/
@@ -127,7 +108,6 @@ main{
 }
 
 .teams-title .quick-list{
-    color: #727272;
     font-weight: 800;
 }
 
@@ -137,3 +117,39 @@ main{
     font-weight: 700;
 }
 
+
+
+
+
+
+
+/*responsive midea quaris*/
+/*mobile devices*/
+@media screen and (max-width:576px) {
+    header{
+        padding: 20px;  
+    }
+    nav,
+    .teams-contaner
+    {
+        flex-direction: column;
+    }
+    .teams-img-container{
+        grid-template-columns: 1fr;
+    }
+    .teams-content{
+        padding-right:20px ;
+        padding-left: 20px;
+    }
+}
+
+/*tablet or medium devaices*/
+@media screen and (min-width:576px) and (max-width:960px) {
+    nav, .teams-container{
+        flex-direction: column;
+    }
+    header{
+        padding: 40px;
+    }
+    
+}

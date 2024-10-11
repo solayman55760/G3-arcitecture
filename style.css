@@ -123,7 +123,7 @@ main{
 
 .facts-card-contaeinar{
     display: flex;
-    justify-content: space-around;
+    justify-content:space-around;
 }
 
 .facts-card-contaeinar .card{
@@ -163,8 +163,16 @@ main{
 }
 
 .sponsors-img-containar img{
-    width: 165px;
+    width:165px;
 }
+
+
+
+
+
+
+
+
 
 
 /*responsive midea quaris*/
